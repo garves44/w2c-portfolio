@@ -3,7 +3,7 @@
 Portfolio for Jeremy C. Collins week two challenge to make a responsive portfolio. This portfolio features an about me page, portfolio page, and a contact page.
 
 ### Known Bugs
-* The email form on the contact page does not actually work on [file:///C:/Users/Garves/Desktop/projects/w2c-portfolio/contact.html](file:///C:/Users/Garves/Desktop/projects/w2c-portfolio/contact.html)
+* The email form on the contact page does not actually work on [https://garves44.github.io/w2c-portfolio/contact.html](https://garves44.github.io/w2c-portfolio/contact.html)
 
 ### Useful links
 * This Live Repo: [https://garves44.github.io/w2c-portfolio/](https://garves44.github.io/w2c-portfolio/)
