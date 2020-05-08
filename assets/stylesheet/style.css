@@ -28,7 +28,7 @@
 
 6.0 DESKTOP RESPONSIVE
   6.1 @media only screen and (max-width: 1083px)
-  
+
 7.0 MOBILE RESPONSIVE
   7.1 @media only screen and (max-width: 980px)
   7.2 @media only screen and (max-width: 900px)
@@ -925,7 +925,6 @@ ul.bottom-nav img {
         float: none;
     }
 }
-
 
 /* 7.4 @media only screen and (max-width: 660px)
 /*------------------------------------------------------*/
