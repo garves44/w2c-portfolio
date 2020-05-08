@@ -327,7 +327,9 @@ textarea.form-control {
 #contact-form button.btn-primary {
     float: right;
 }
-
+.project-title {
+    font-size: larger;
+}
 /* 1.3 Images and Blurbs
   /*------------------------------------------------------*/
 /* IMAGES */
