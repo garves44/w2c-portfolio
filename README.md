@@ -6,7 +6,7 @@ Portfolio for Jeremy C. Collins week two challenge to make a responsive portfoli
 * The email form on the contact page does not actually work on [file:///C:/Users/Garves/Desktop/projects/w2c-portfolio/contact.html](file:///C:/Users/Garves/Desktop/projects/w2c-portfolio/contact.html)
 
 ### Useful links
-* This Live Repo: [https://ccollins1544.github.io/Responsive-Portfolio](https://ccollins1544.github.io/Responsive-Portfolio/)
+* This Live Repo: 
 * My Github Portal: [https://garves44.github.io/](https://garves44.github.io/)
 
 ## Contact
