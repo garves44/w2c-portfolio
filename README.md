@@ -1,6 +1,6 @@
 # Week-Two-Challenge-Portfolio 
 
-Portfolio for Jeremy C. Collins week two challenge to make a responsive portfolio. This portfolio features an about me page, portfolio page, and a contact page.
+Portfolio for Jeremy C. Collins. This is my week two challenge to make a responsive portfolio. This portfolio features an about me page, portfolio page, and a contact page.
 
 ### Known Bugs
 * The email form on the contact page does not actually work on [https://garves44.github.io/w2c-portfolio/contact.html](https://garves44.github.io/w2c-portfolio/contact.html)
