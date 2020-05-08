@@ -78,7 +78,7 @@ body.page-template {
     text-align: left;
     font-family: "Ubuntu";
     color: var(--body-text);
-    background: url('http://via.placeholder.com/2000');
+    background: url('../images/portfolio-background-5.jpg');
 }
 
 .container {
@@ -723,7 +723,7 @@ ul.bottom-nav img {
 }
 
 .fa-dev:hover {
-    color: #000;
+    color:#84bd00;
     -webkit-animation-name: devio_animation;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s;
