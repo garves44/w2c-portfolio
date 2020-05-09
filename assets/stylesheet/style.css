@@ -69,6 +69,7 @@
 
 html,
 body {
+    scroll-behavior: smooth;
     height: 100%;
     margin: 0;
 }
@@ -100,7 +101,8 @@ body.page-template {
   * section margin 50px + footer height 55px = 105px
   */
 .content-wrapper {
-    padding-top: 135px;
+    padding-top: 118px;
+    padding-bottom: 50px;
     min-height: calc(100vh - 105px);
 }
 
@@ -420,7 +422,7 @@ img {
 .blurb_content {
     position: relative;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 670px;
     text-align: center;
     margin-bottom: 30px;
 }
