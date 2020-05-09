@@ -62,7 +62,7 @@
 /*--------------[ 1.0 BASIC STYLES ]--------------------*/
 /*------------------------------------------------------*/
 /* 1.1 Main Elements
-  /*------------------------------------------------------*/
+/*------------------------------------------------------*/
 * {
     box-sizing: border-box;
 }
@@ -723,7 +723,7 @@ ul.bottom-nav img {
     }
 }
 
-.fa-dev:hover {
+.fa-spotify:hover {
     color:#84bd00;
     -webkit-animation-name: devio_animation;
     /* Safari 4.0 - 8.0 */
@@ -744,7 +744,7 @@ ul.bottom-nav img {
     }
 
     to {
-        color: #fff;
+        color: #84bd00;
     }
 }
 
@@ -755,7 +755,7 @@ ul.bottom-nav img {
     }
 
     to {
-        color: #fff;
+        color: #84bd00;
     }
 }
 

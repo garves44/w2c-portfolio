@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="./assets/stylesheet/reset.css">
   <link rel="stylesheet" href="./assets/stylesheet/style.css?v=1">
   <!-- Font Awesome -->
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"> -->
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css">
   <script src="https://kit.fontawesome.com/f6c4aefac0.js" crossorigin="anonymous"></script>
 </head>
 <!-- BODY START -->
@@ -65,6 +65,82 @@
       </div><!-- .container-fluid -->
     </section><!-- #main-section -->
   </article><!-- #main-container -->
+  <article id="main-container" class="content-wrapper">
+    <!-- Main Section -->
+    <section class="section-block" id="main-section">
+      <div class="container-fluid">
+        <div class="row first-row">
+          <h2 id="page-title">Portfolio</h2>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-full col-half">
+            <div class="blurb_content">
+              <a href="https://garves44.github.io/week-one-challenge-horiseon/" target="_blank">
+                <span class="image_wrap img-hover-zoom">
+                  <img src="./assets/images/Horiseon.PNG"
+                    alt="Horiseon Website">
+                  <span class="image_overlay"></span>
+                </span>
+              </a>
+              <h4 class="module_header"><a href="#"><span class="project-title">Horiseon</span> | html | css</a></h4>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-full col-half">
+            <div class="blurb_content">
+              <a href="https://garves44.github.io/run-buddy/" target="_blank">
+                <span class="image_wrap img-hover-zoom">
+                  <img src="./assets/images/run-buddy.PNG"
+                    alt="Run Buddy Website">
+                  <span class="image_overlay"></span>
+                </span>
+              </a>
+              <h4 class="module_header"><a href="#"><span class="project-title">Run Buddy</span> | html | css</a></h4>
+            </div>
+          </div>
+        </div><!-- .container-fluid -->
+      </section><!-- #main-section -->
+    </article><!-- #main-container -->
+    <article id="main-container" class="content-wrapper">
+        <!-- Main Section -->
+        <section class="section-block" id="main-section">
+          <div class="container-fluid">
+            <div class="row first-row">
+              <h2 id="page-title">Contact</h2>
+              <p class="contact-message">Fill out form below if you have any questions, concerns, or just want to say 'Hi'.</p>
+            </div>
+            <hr />
+            <div class="row">
+          <form id="contact-form" method="POST" action="contact-form.php">
+            <div class="form-row">
+              <div class="form-group col">
+                <label for="input-from-name">Name</label>
+                <input type="text" class="form-control" id="input-from-name" name="input-from-name"
+                  placeholder="Enter Your Name">
+              </div>
+              <div class="form-group col">
+                <label for="input-email">Email</label>
+                <input type="email" class="form-control" id="input-email" name="input-email"
+                  placeholder="Enter Your Email">
+              </div>
+            </div><!-- .form-row -->
+            <div class="form-group">
+              <label for="input-subject">Subject</label>
+              <input type="text" class="form-control" id="input-subject" name="input-subject"
+                placeholder="Subject">
+            </div><!-- .form-group -->
+            <div class="form-group">
+              <label for="input-message">Message</label>
+              <textarea type="text" class="form-control" id="input-message" name="input-message"
+                placeholder="Enter Your Message" rows="5"></textarea>
+            </div><!-- .form-group -->
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form><!-- #contact-form -->
+        </div><!-- .row -->
+          </div><!-- .container-fluid -->
+        </section><!-- #main-section -->
+      </article><!-- #main-container -->
    <!-- Footer -->
    <footer id="main-footer">
     <div class="footer-nav">
