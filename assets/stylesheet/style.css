@@ -62,13 +62,14 @@
 /*--------------[ 1.0 BASIC STYLES ]--------------------*/
 /*------------------------------------------------------*/
 /* 1.1 Main Elements
-  /*------------------------------------------------------*/
+/*------------------------------------------------------*/
 * {
     box-sizing: border-box;
 }
 
 html,
 body {
+    scroll-behavior: smooth;
     height: 100%;
     margin: 0;
 }
@@ -100,7 +101,8 @@ body.page-template {
   * section margin 50px + footer height 55px = 105px
   */
 .content-wrapper {
-    padding-top: 135px;
+    padding-top: 118px;
+    padding-bottom: 50px;
     min-height: calc(100vh - 105px);
 }
 
@@ -328,9 +330,11 @@ textarea.form-control {
 #contact-form button.btn-primary {
     float: right;
 }
+
 .project-title {
     font-size: larger;
 }
+
 /* 1.3 Images and Blurbs
   /*------------------------------------------------------*/
 /* IMAGES */
@@ -420,7 +424,7 @@ img {
 .blurb_content {
     position: relative;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 670px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -723,8 +727,8 @@ ul.bottom-nav img {
     }
 }
 
-.fa-dev:hover {
-    color:#84bd00;
+.fa-spotify:hover {
+    color: #84bd00;
     -webkit-animation-name: devio_animation;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s;
@@ -744,7 +748,7 @@ ul.bottom-nav img {
     }
 
     to {
-        color: #fff;
+        color: #84bd00;
     }
 }
 
@@ -755,7 +759,7 @@ ul.bottom-nav img {
     }
 
     to {
-        color: #fff;
+        color: #84bd00;
     }
 }
 
